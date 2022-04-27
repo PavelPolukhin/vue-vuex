@@ -3,7 +3,7 @@
     Banner
     <div class="row">
       <div class="left">
-        <mcv-feed :api-url="apiUrl"/>
+        <mcv-feed/>
       </div>
       <div class="right">popular tags</div>
     </div>
@@ -15,11 +15,6 @@ export default {
   name: 'McvGlobalFeed',
   components: {
     McvFeed,
-  },
-  data() {
-    return {
-      apiUrl: '/articles',
-    };
   },
 };
 </script>
