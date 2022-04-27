@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div class="header-logo">
-      <router-link :to="{name: 'home'}">Home</router-link>
+      <router-link :to="{name: 'globalFeed'}">Home</router-link>
     </div>
     <div class="header__right">
       <template v-if="isLoggedIn">
